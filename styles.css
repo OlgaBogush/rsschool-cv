@@ -9,7 +9,8 @@ header {
 h3 {
     text-transform: uppercase;
 }
-article {
+p, 
+code {
     font-size: 18px;
 }
 .container {
