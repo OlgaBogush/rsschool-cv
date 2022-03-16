@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/baae1caf08.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <title>CV Volha Bohush</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="header__menu">
+                <ul class="menu">
+            <li><a class="menu__item" href="#part1"><h3>Contacts</h3></a></li>
+            <li><a class="menu__item" href="#part2"><h3>About me</h3></a></li>
+            <li><a class="menu__item" href="#part3"><h3>Skills</h3></a></li>
+            <li><a class="menu__item" href="#part4"><h3>Code examples</h3></a></li>
+            <li><a class="menu__item" href="#part5"><h3>Work experience</h3></a></li>
+            <li><a class="menu__item" href="#part6"><h3>Education</h3></a></li>
+            <li><a class="menu__item" href="#part7"><h3>English</h3></a></li>
+                </ul>
+            </nav>
+            <div class="burger"><span></span></div>
+    </header>
+        <main class="inner__info">
+            <div class="left__part">
+                <figure class="avatar__item">
+                    <img class="avatar__photo " src="./cvphoto.jpg" alt="Volha">
+                    <div><h1>Volha Bohush</h1></div>
+                </figure>
+                <section class="avatar__text">
+                <h2 id=part1 class="underline-title">Contacts</h2>
+                <div class="info">
+                    <ul>
+                        <li class="info__item"><i class="fas fa-phone-square-alt"></i>+37529 350-52-72</li>
+                        <li class="info__item"><i class="fas fa-at"></i>bohush.olga@gmail.com</li>
+                        <li class="info__item"><i class="fab fa-github"></i><a class="git" href="https://github.com/OlgaBogush?tab=repositories">OlgaBogush</a></li>
+                    </ul>
+                </div>
+                </section>
+            </div>
+            <div class="right__part">
+                <ul>
+                    <li>
+                        <h2 id=part2 class="underline-title"><i class="far fa-list-alt"></i>About me</h2>
+                        <p>I am seeking a competitive and challenging environment where I can use my ability to communicate with people and take advantage of my knowledges. Extremely motivated for career change goal</p>
+                    </li>
+                    <li>
+                        <h2 id=part3 class="underline-title"><i class="fas fa-desktop"></i>Skills</h2>
+                        <ul class="skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Able to keep deadlines successfully</li>
+                            <li>Able to prioritize</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 id=part4 class="underline-title"><i class="fas fa-code"></i>Code examples</h2>
+<pre><code>
+    function stray(numbers) {
+        let a = numbers.sort();
+        if(a[0] != a[1]) {
+          return a[0]
+        }
+        return a[a.length-1];
+      }
+</code></pre>
+<pre><code>
+    function highAndLow(numbers){
+        const array1 = numbers.split(' ');
+          return `${Math.max(...array1)} ${Math.min(...array1)}`;
+      }
+</code></pre>
+<pre><code>
+    function isIsogram(str){
+        return !str.match(/([a-z]).*\1/i);
+      }
+</code></pre>
+                    </li>
+                    <li><h2 id=part5 class="underline-title"><i class="fas fa-briefcase"></i>Work experience</h2><p><b>Perfume Logistics, 2016-2018, Minsk, Belarus</b><br> Specialist of the department of registration of documents</p></li>
+                    <li><h2 id=part6 class="underline-title"><i class="fas fa-university"></i>Education</h2><p>Belarusian National Technical University, 2008-2013</p></li>
+                    <li><h2 id=part7 class="underline-title"><i class="fas fa-book"></i>English</h2><p>Elementary (A2). I am currently studying English with International House courses</p></li>
+                </ul>
+            </div>
+        </main>
+        <footer class="inner__footer">
+            <div class="info__item"><i class="fab fa-github"></i><a class="git" href="https://github.com/OlgaBogush?tab=repositories">OlgaBogush</a></div>
+            <div><h4>2021</h4></div>
+            <div class="logo"><a href="https://rs.school/js/"><img src="./rs_school_js.svg" width="100" alt="rss"></a></div>
+        </footer>
+    </div>
+</body>
+</html>
