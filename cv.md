@@ -7,3 +7,5 @@
 * JavaScript
 * Able to keep deadlines successfully
 * Able to prioritize
+**Education**
+*Belarusian National Technical University, 2008-2013*
