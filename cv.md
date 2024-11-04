@@ -28,6 +28,7 @@ function century(year) {
 **Work experience**
 
 Perfume Logistics, 2016-2018, Minsk, Belarus
+
 Specialist of the department of registration of documents
 
 **Education**
