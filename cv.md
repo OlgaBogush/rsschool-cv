@@ -11,8 +11,8 @@ I strive to work in a competitive and challenging environment where I can use my
 + HTML
 + CSS
 + JavaScript
-+ The ability to successfully meet deadlines.
-+ The ability to prioritize.
++ The ability to successfully meet deadlines
++ The ability to prioritize
 
 **Code examples**
 ```
@@ -26,8 +26,8 @@ function century(year) {
 }
 ```
 **Work experience**
-Perfume Logistics, 2016-2018, Minsk, Belarus
 
+Perfume Logistics, 2016-2018, Minsk, Belarus
 Specialist of the department of registration of documents
 
 **Education**
