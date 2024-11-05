@@ -1,22 +1,22 @@
 * {
   box-sizing: border-box;
+  font-family: "Roboto", serif;
 }
 .container {
   display: flex;
   margin: 0 auto;
   width: 100%;
   max-width: 960px;
-  border: 1px solid #F498AD;
+}
+.container__intro {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 5px;
+  border-right: 1px;
 }
 .container__info {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-}
-.container__intro {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  width: 30%;
-  background: linear-gradient(45deg, #2E9AFF, #F498AD);
 }
